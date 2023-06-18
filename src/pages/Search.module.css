@@ -1,0 +1,46 @@
+.search-wrapper {
+  padding: 20px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.search-wrapper > .search-input {
+  display: flex;
+  background: darkseagreen;
+  height: 30px;
+}
+
+.search-wrapper > .search-input > input {
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.search-wrapper > .search-input > svg {
+  width: 100%;
+  flex: 10%;
+  height: 100%;
+  cursor: pointer;
+  padding: 4px;
+  transition: all 0.3s ease;
+}
+
+.search-wrapper > .search-input > svg:hover {
+  background-color: #5cae22;
+  fill: white;
+}
+
+.search-wrapper-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.search-wrapper-box > a > img {
+    object-fit: contain;
+}
+
+

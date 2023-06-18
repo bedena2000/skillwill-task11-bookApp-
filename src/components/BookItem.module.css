@@ -1,0 +1,21 @@
+.bookItem {
+}
+
+.bookItem > img {
+  width: 100%;
+  height: 140px;
+  cursor: pointer;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.bookItem > p {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

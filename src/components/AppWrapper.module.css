@@ -1,0 +1,8 @@
+.app-wrapper-box {
+  width: 614px;
+  height: 310px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgb(0 0 0 / 26%);
+  display: flex;
+}

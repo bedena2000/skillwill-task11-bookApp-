@@ -1,0 +1,31 @@
+.book-info {
+  width: 66px;
+  height: 100%;
+  padding-top: 24px;
+  background-color: #1D2126
+}
+
+.book-info__logo {
+  cursor: pointer;
+  text-align: center;
+}
+
+.book-info__navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 17.12px;
+  align-items: center;
+  margin-top: 51.53px;
+}
+
+.book-info__navigation > svg {
+  cursor: pointer;
+}
+
+svg {
+  transition: all 0.6s ease;
+}
+
+svg:hover {
+  fill: green;
+}

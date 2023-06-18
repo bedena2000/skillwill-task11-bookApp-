@@ -1,0 +1,25 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+/* Globals */
+
+.container {
+  max-width: 614px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Globals */
